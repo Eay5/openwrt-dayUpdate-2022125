@@ -24,6 +24,7 @@
 # Add a feed source
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 # sed -i '$a src-git kenzo https://github.com/kenzok8/small-package.git' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
