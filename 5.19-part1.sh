@@ -27,7 +27,8 @@
 # sed -i '$a src-git helloword https://github.com/fw876/helloworld' feeds.conf.default
 # sed -i '$a src-git helloword https://github.com/fw876/helloworld' feeds.conf.default
 # 
-sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
 #ddns-go
